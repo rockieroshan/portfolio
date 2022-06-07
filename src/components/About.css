@@ -34,5 +34,9 @@
     padding: 1rem;
     background: rgb(10 142 67);
     border-radius: 30px;
+    transform: fade 3s ease;
+}
 
+.about a:hover{
+    opacity: 0.5;
 }
