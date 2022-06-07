@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+.about{
+    background: black;
+    text-align: center;
+    opacity: 0.9;
+    height: 40rem;
+}
+
+.about h1{
+    color: white;
+    font-family: "Bree Serif", serif;
+    font-size: 2.8rem;
+    text-transform: capitalize;
+    line-height: 5rem;
+    padding-top: 2rem;
+}
+
+.about p {
+    color: white;
+    font-family: "Bree Serif", serif;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    line-height: 2rem;
+    padding: 1rem;
+    margin: 2rem 5rem 2rem 5rem;
+}
+
+.about a {
+    text-decoration: none;
+    color: white;
+    font-family: "Bree Serif", serif;
+    font-size: 1.5rem;
+    padding: 1rem;
+    background: rgb(10 142 67);
+    border-radius: 30px;
+
+}
