@@ -42,3 +42,32 @@ color:rgb(10 142 67);
 .home h3{
     font-size: 2.4rem;
 }
+
+@media (max-width :430px){
+
+    .home{
+        height: 29rem;
+    }
+
+    .home h1,.home h2, .home h3{
+    
+        font-size: 1.5rem;
+     
+        line-height: 2rem;
+    }
+
+    .home-info{
+        position: absolute;
+    top: 67%;
+    left: 4rem;
+    }
+
+    .home::before{
+  
+        width: 50%;
+        height:50%;
+        border-radius:0;
+        left: 26%;
+        background-size: contain;
+    }
+}

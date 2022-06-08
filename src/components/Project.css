@@ -40,9 +40,6 @@
 
 .project-one , .project-two , .project-three{
   margin: auto;
- 
-
- 
 }
 
 
@@ -61,3 +58,42 @@
 .projects a:hover{
     opacity: 0.5;
 }
+
+@media (max-width: 430px){
+    .projects {
+        position: relative;
+        height: 45rem;
+    }
+    .projects h1{
+        font-size: 2rem;
+        padding-top: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .projects h3{
+        font-size: 1.2rem;
+    }
+
+    .projects a {
+       
+        padding: 6px;
+    }
+    .project-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 1.5rem;
+    }
+    .projects img {
+        width: 60%;
+        margin-top: 0rem;
+        /* height: 70%; */
+    }
+}
+.project-one , .project-two , .project-three{
+ margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }

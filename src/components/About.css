@@ -40,3 +40,28 @@
 .about a:hover{
     opacity: 0.5;
 }
+
+@media (max-width:450px){
+
+    .about h1{
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+        padding-top: 0rem;
+    }
+
+    .about p {
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+        padding: 0rem;
+        margin: 2rem;
+    }
+
+    .about a {
+         font-size: 0.9rem;
+        padding: 0.7rem;
+        background: rgb(10 142 67);
+        border-radius: 30px;
+        transform: fade 3s ease;
+    }
+    
+}
