@@ -3,23 +3,29 @@ import logo from "../images/logo.png";
 import "./Navbar.css"
 
 const Navbar = () => {
+
+
+
   return (
-    <navbar className="navbar">
-        <div className="logo"> 
+    <navbar className="navbar" >
+        <div className="logo" > 
       <img src={logo} alt="MyLogo" />
 </div>
       <ul className="navbar-list">
         <li>
-          <a href>home</a>
+         
+            
+          <a href onClick={() => window.scrollTo(0, 0,'smooth')}>home</a>
+       
         </li>
         <li>
-          <a href>about</a>
+          <a href onClick={() => window.scrollTo(0, 660,'smooth')}>about</a>
         </li>
         <li>
-          <a href>projects</a>
+          <a href onClick={() => window.scrollTo(0, 1270,'smooth')}>projects</a>
         </li>
         <li>
-          <a href>contact</a>
+          <a href onClick={() => window.scrollTo(0, 1500,'smooth')} >contact</a>
         </li>
       </ul>
 

@@ -4,7 +4,7 @@
 .projects {
     position: relative;
     background: black;
-    height: 33rem;
+    height: 34rem;
 }
 
 .projects h1{
@@ -14,7 +14,7 @@
     text-transform: capitalize;
     padding-top: 2rem;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 3.5rem;
 }
 
 .projects h3{
@@ -26,37 +26,25 @@
 
 .project-list{
     display: flex;
-    width: 100vw;
+    /* width: 100vw; */
+    /* margin:1rem; */
+    line-height: 2.5rem;
+    text-align: center;
+   
 }
 .projects img {
-    width: 100%;
-    height: 100%;
+    width: 95%;
+    /* height: 70%; */
     border-radius: 20px
 }
 
-.project-one{
-    line-height: 2.5rem;
-    margin: 1rem;
-    text-align: center;
+.project-one , .project-two , .project-three{
+  margin: auto;
+ 
 
  
 }
-.project-two{
-   
-    line-height: 2.5rem;
-    margin: 1rem;
-    text-align: center;
 
-  
-}
-.project-three{
-
-    line-height: 2.5rem;
-    margin: 1rem;
-    text-align: center;
-
-  
-}
 
 .projects a {
     text-decoration: none;

@@ -3,8 +3,9 @@ import "./About.css"
 import resume from '../documents/Niranjan-Resume.pdf'
 
 const About = () => {
-  return (
 
+
+  return (
     <section className='about'>
       <h1>about me</h1>
       <p>Meticulous Front end developer with experience and passion for responsive website design and a firm believer in the mobile-first approach.</p>
