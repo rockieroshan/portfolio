@@ -19,7 +19,7 @@
 }
 
 .home-info{
-    position: relative;
+    position: absolute;
     top: 33%;
     left: 4rem;
 }
