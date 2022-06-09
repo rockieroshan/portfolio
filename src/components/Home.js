@@ -1,18 +1,20 @@
-import React from 'react'
-import './Home.css'
+import React from "react";
+import "./Home.css";
+import displayPicture from "../images/displayPicture.JPG";
+
 const Home = () => {
   return (
-  
-    <section className='home'>
+    <section className="home">
       <div className="home-info">
-
-      <h1>hi, i'm niranjan sharma</h1>
-      <h2>front end developer</h2>
-      <h3>based in india</h3>
+        Hi, I'm Niranjan Sharma
+        <span className="innerText">Front-End Developer</span>
+        based in india
+      </div>
+      <div className="displayPicture">
+        <img src={displayPicture} alt="DisplayPicture" />
       </div>
     </section>
+  );
+};
 
-  )
-}
-
-export default Home
+export default Home;

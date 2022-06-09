@@ -1,73 +1,66 @@
-@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
 
 .home {
-    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
-    height: 33rem;
-  
+    max-width: 1400px;
+    margin: 1% auto;
 }
 
-.home::before{
-    content: "";
-    position: absolute;
-    background: url('../images/home-bg.JPG') no-repeat;
-    background-size: auto;
-    height: 100%;
-    width: 100%;
-    border-radius: 22%;
-    left: 61%;
-}
-
-.home-info{
-    position: absolute;
-    top: 33%;
-    left: 4rem;
-}
-.home h1,.home h2, .home h3{
-    color: white;
-    font-family: "Bree Serif", serif;
+.home-info {
     font-size: 2.8rem;
     text-transform: capitalize;
-    line-height: 5rem;
- 
+    max-width: 800px;
 }
 
-.home h2{
-    
-    font-size: 2.7rem;
-color:rgb(10 142 67);
-
+.innerText {
+    color: rgb(10 142 67);
+    padding: 0.8rem;
 }
 
-.home h3{
-    font-size: 2.4rem;
+.displayPicture img{
+    width: 413px;
+    height: 531px;
+    border-top-left-radius: 275px 162px;
 }
 
-@media (max-width :430px){
+
+@media only screen and (max-width: 600px) {
 
     .home{
-        height: 29rem;
+        flex-direction: column;
     }
 
+    .home-info {
+        order: 1;
+        font-size: 1.6rem;
+        width: 355px;
+        text-align: center;
+    }
+
+    .displayPicture img {
+        width: 280px;
+        height: 346px;
+        border-top-left-radius: 214px 130px;
+    }
+/* 
     .home h1,.home h2, .home h3{
     
         font-size: 1.5rem;
      
         line-height: 2rem;
-    }
+    } */
 
-    .home-info{
-        position: absolute;
-    top: 67%;
-    left: 4rem;
-    }
 
-    .home::before{
+
+    /* .home::before{
   
         width: 50%;
         height:50%;
         border-radius:0;
         left: 26%;
         background-size: contain;
-    }
+    } */
 }

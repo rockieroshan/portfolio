@@ -1,14 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
-
 .contact {
-    position: relative;
-    background:black;
-    opacity: 0.9;
-    height: 10rem;
+    background-color: #262626;
+    padding: 2rem 0;
 }
-.contact h1 {
+.contactMe {
     color: white;
-    font-family: "Bree Serif", serif;
     font-size: 1.7rem;
     text-transform: capitalize;
     text-align: center;
@@ -18,25 +13,32 @@
 
 .contact .links{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .contact img{
     padding: 0.5rem;
-    height: 3rem;
-    width: 3rem;
+    height: 4rem;
+    width: 4rem;
     border-radius: 18px
 }
 
-@media (max-width : 450px) {
-    .contact h1 {
-        font-size: 1.3rem;
+@media only screen and (max-width: 600px) {
+    .contact {
+        padding: 1rem 0;
     }
+
+    .contactMe {
+        font-size: 1.3rem;
+        margin-bottom: 10px
+    }
+
     .contact img{
-    
-        height: 2rem;
-        width: 2rem;
-   
-}
+        height: 4rem;
+        width: 4rem;
+    }
 }

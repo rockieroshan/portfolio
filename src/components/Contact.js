@@ -2,12 +2,12 @@ import React from "react";
 import gmail from "../images/gmail.jpeg";
 import linkedin from "../images/linkedin.png";
 import github from "../images/github.png";
-import './Contact.css'
+import "./Contact.css";
 
 const Contact = () => {
   return (
-    <section className="contact">
-      <h1>Contact me</h1>
+    <footer className="contact">
+      <div className="contactMe">Contact me</div>
       <div className="links">
         <a href="mailto:niranjansharma1992@gmail.com">
           <img src={gmail} alt="gmail" />
@@ -27,7 +27,7 @@ const Contact = () => {
           <img src={github} alt="GiHub" />
         </a>
       </div>
-    </section>
+    </footer>
   );
 };
 
